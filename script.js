@@ -46,6 +46,18 @@ function updateAgentDisplay() {
     agentImage.classList.remove('fade-in');
     void agentImage.offsetWidth; // Trigger reflow to restart animation
     agentImage.classList.add('fade-in');
+
+    // Trigger confetti
+    triggerConfetti();
+}
+
+function triggerConfetti() {
+    confetti({
+        particleCount: 100, // Number of confetti particles
+        spread: 70, // Spread of the confetti
+        origin: { y: 0.6 }, // Origin of the confetti (bottom of the screen)
+        colors: ['#ff4655', '#ffffff', '#00ff00', '#0000ff'], // Valorant-themed colors
+    });
 }
 
 randomizeButton.addEventListener('click', updateAgentDisplay);
