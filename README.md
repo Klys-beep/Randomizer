@@ -1,7 +1,7 @@
 This is a simple web-based randomizer for Valorant agents. It allows you to randomly select an agent for your next match in Valorant, with images for all available agents.
 
 ## Features
-- Randomly selects one of the 22 available Valorant agents.
+- Randomly selects one of the 27 available Valorant agents.
 - Includes images for all agents to make it visually appealing.
 - Quick and easy to use, directly accessible via a web link.
 
